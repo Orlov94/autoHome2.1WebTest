@@ -29,7 +29,7 @@ public class ApplicationDebitCardTest {
     }
 
     @Test
-    void test(){
+    void test() {
         driver.get("http://localhost:9999");
         driver.findElement(By.cssSelector("span[data-test-id='name'] input")).sendKeys("Михайлов Олег");
         driver.findElement(By.cssSelector("span[data-test-id='phone'] input")).sendKeys("+79253285723");
